@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+nav {
+  background: #efefef;
+  width: 90%;
+  margin: 0rem auto;
+  min-height: 5vh;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navigation__link {
+  text-decoration: none;
+  font-size: 2rem;
+  color: black;
+}
+
+#about {
+  width: 90%;
+  margin: 0 auto;
+  height: 80vh;
+  background: url(/img/blue-sky-clear-sky-cold-fog-346529.jpg);
+  background-position: center;
+  position: relative;
+  text-align: center;
+}
+
+.about__text {
+  font-size: 10rem;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#works {
+  height: 15vh;
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+.guntt {
+  border: 1px solid black;
+}
+.guntt-link {
+  font-size: 2rem;
+}
+
+.changer {
+  font-size: 3rem;
+  cursor: pointer;
+  border: 2px solid black;
+  background: blue;
+  color: white;
+}
+
+.red-back {
+  background: red;
+}
