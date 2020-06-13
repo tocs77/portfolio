@@ -1,7 +1,12 @@
-*,
-*::after,
-*::before {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+$header1: 4rem;
+$header2: 3rem;
+$header3: 2.5rem;
+$header4: 2rem;
+$text: 2.5rem;
+$gradient: linear-gradient(left, #38d39f, #38a4d3);
+$gray-text: rgb(140, 140, 140);
+$red_text: rgb(209, 67, 67);
+$main-font-family: 'Antonio';
+
+@import 'global';
+@import 'header';
