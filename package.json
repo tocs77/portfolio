@@ -1,0 +1,27 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Porfoloio landing page",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass scss/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tocs77/portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "html5",
+    "css3"
+  ],
+  "author": "Ilya Golubkov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tocs77/portfolio/issues"
+  },
+  "homepage": "https://github.com/tocs77/portfolio#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
