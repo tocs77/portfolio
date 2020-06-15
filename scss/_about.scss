@@ -1,0 +1,96 @@
+.about {
+    margin: 0rem auto;
+    margin-top: 5rem;
+    width: 80%;
+
+    &__motto {
+        font-family: "Hind Med";
+        text-align: center;
+        color: $primary-color;
+
+        h1 {
+            font-size: 8rem;
+        }
+
+        h2 {
+            font-family: 'Hind Reg';
+            font-size: 5rem;
+            line-height: 5.5rem;
+        }
+
+    }
+
+    &__container {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 2rem;
+
+        h1 {
+            color: $second-color;
+            font-family: $menu-font-family;
+            border-bottom: 5px solid $primary-color-light;
+            text-transform: uppercase;
+            margin-bottom: 2rem;
+        }
+    }
+
+
+
+    &__info {
+        flex: 1 1 40rem;
+        margin-right: 3rem;
+
+
+        &__content {
+
+            display: flex;
+
+            img {
+                flex: 1 1 15rem;
+                height: 100%;
+                width: 100%;
+            }
+
+            p {
+                flex: 2 1 40rem;
+                padding: 1rem;
+                color: $primary-color-light;
+                font-size: $text;
+            }
+
+        }
+
+    }
+
+    &__skills {
+        flex: 1 1 40rem;
+        margin-right: 3rem;
+
+
+        &__container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            h2 {
+                color: $primary-color;
+            }
+
+            ul {
+                font-size: $text;
+                color: $primary-color-light;
+            }
+
+
+            ul li::before {
+                content: "\2022";
+                color: $second-color;
+                font-size: $big-text;
+                display: inline-block;
+                font-weight: bold;
+                width: 2rem;
+                vertical-align: -5%;
+            }
+        }
+    }
+}

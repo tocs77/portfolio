@@ -1,25 +1,28 @@
 .header {
+  font-family: $menu-font-family;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  width: 80%;
+  margin: 0rem auto;
 
   &__logo {
-    margin-left: 5rem;
     padding: 2rem;
     flex: 2 1 40rem;
 
     h1 {
-      color: $gray_text;
+      color: $primary-color;
       text-decoration: underline;
       line-height: 2.7rem;
     }
+
     h4 {
-      color: $red_text;
+      color: $second-color;
+      margin: 0.2rem;
     }
   }
 
   nav {
-    margin: 2rem 7rem 2rem 2rem;
     flex: 1 1 25rem;
   }
 
@@ -31,8 +34,8 @@
       text-decoration: none;
       text-transform: uppercase;
       letter-spacing: 0px;
-      color: $gray_text;
-      font-size: $text;
+      color: $primary-color;
+      font-size: $big-text;
     }
   }
 }

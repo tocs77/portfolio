@@ -2,11 +2,17 @@ $header1: 4rem;
 $header2: 3rem;
 $header3: 2.5rem;
 $header4: 2rem;
-$text: 2.5rem;
-$gradient: linear-gradient(left, #38d39f, #38a4d3);
-$gray-text: rgb(140, 140, 140);
-$red_text: rgb(209, 67, 67);
-$main-font-family: 'Antonio';
+$text: 1.8rem;
+$big-text: 2.5rem;
+
+$primary-color: rgb(140, 140, 140);
+$primary-color-light: rgb(170, 170, 170);
+$second-color: rgb(209, 67, 67);
+
+
+$main-font-family: 'Hind Reg';
+$menu-font-family: 'Antonio';
 
 @import 'global';
 @import 'header';
+@import 'about';
