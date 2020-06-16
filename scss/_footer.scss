@@ -1,0 +1,21 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+
+    width: 80%;
+    margin: 1rem auto;
+
+    p {
+        color: $primary-color-light;
+        font-size: $text;
+    }
+
+    ul {
+        display: flex;
+    }
+
+    img {
+        width: 3rem;
+        margin: 1rem;
+    }
+}

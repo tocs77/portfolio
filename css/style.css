@@ -18,7 +18,8 @@
   src: url(/fonts/Hind-Regular.ttf); }
 
 html {
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  scroll-behavior: smooth; }
 
 body {
   background: url(/img/background.png);
@@ -167,7 +168,8 @@ a {
 .contact {
   width: 80%;
   margin: 0rem auto;
-  border-bottom: 5px solid #aaaaaa; }
+  border-bottom: 5px solid #aaaaaa;
+  padding-bottom: 1rem; }
   .contact h1 {
     color: #d14343;
     font-family: "Antonio";
@@ -233,3 +235,17 @@ a {
         font-size: 1.8rem;
         text-decoration: underline;
         color: #d14343; }
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 1rem auto; }
+  footer p {
+    color: #aaaaaa;
+    font-size: 1.8rem; }
+  footer ul {
+    display: flex; }
+  footer img {
+    width: 3rem;
+    margin: 1rem; }
