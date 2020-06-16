@@ -3,14 +3,12 @@
     width: 80%;
     margin: 0rem auto;
 
-
     h1 {
         color: $second-color;
         font-family: $menu-font-family;
         border-bottom: 5px solid $primary-color-light;
         text-transform: uppercase;
         margin-bottom: 2rem;
-
     }
 
     &__container {
@@ -22,6 +20,8 @@
 
         margin: 3rem;
         width: 40rem;
+
+
 
         h2 {
             text-align: center;

@@ -163,3 +163,73 @@ a {
     .work__entry img {
       width: 100%;
       height: 100%; }
+
+.contact {
+  width: 80%;
+  margin: 0rem auto;
+  border-bottom: 5px solid #aaaaaa; }
+  .contact h1 {
+    color: #d14343;
+    font-family: "Antonio";
+    border-bottom: 5px solid #aaaaaa;
+    text-transform: uppercase;
+    margin-bottom: 2rem; }
+  .contact h2 {
+    color: #8c8c8c;
+    text-transform: uppercase;
+    font-family: "Antonio"; }
+  .contact__container {
+    display: flex;
+    flex-wrap: wrap; }
+    .contact__container__form {
+      display: flex;
+      flex-direction: column;
+      flex: 1 1 50rem; }
+      .contact__container__form button {
+        background-color: #d14343;
+        color: white;
+        font-size: 2.5rem;
+        width: 10rem;
+        font-family: "Antonio";
+        margin-left: 5rem; }
+    .contact__container__other {
+      display: flex;
+      flex-direction: column;
+      flex: 1 1 50rem; }
+  .contact__form {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem; }
+    .contact__form .input-container {
+      display: flex;
+      flex-direction: column;
+      flex: 1 1 20rem; }
+      .contact__form .input-container label {
+        color: #8c8c8c;
+        font-size: 1.8rem; }
+      .contact__form .input-container input,
+      .contact__form .input-container textarea {
+        background: gainsboro;
+        font-size: 1.8rem;
+        color: #8c8c8c;
+        margin-right: 1rem;
+        padding: 1rem; }
+  .contact__other {
+    display: flex;
+    margin: 2rem; }
+    .contact__other img {
+      flex: 1 1 10rem; }
+    .contact__other__info {
+      flex: 2 1 20rem;
+      display: flex;
+      flex-direction: column;
+      margin: 1.5rem; }
+      .contact__other__info h4 {
+        color: #8c8c8c; }
+      .contact__other__info p {
+        color: #aaaaaa;
+        font-size: 1.8rem; }
+      .contact__other__info a {
+        font-size: 1.8rem;
+        text-decoration: underline;
+        color: #d14343; }

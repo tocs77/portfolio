@@ -7,6 +7,7 @@ $big-text: 2.5rem;
 
 $primary-color: rgb(140, 140, 140);
 $primary-color-light: rgb(170, 170, 170);
+$primary-color-light2: rgb(220, 220, 220);
 $second-color: rgb(209, 67, 67);
 
 
@@ -17,3 +18,5 @@ $menu-font-family: 'Antonio';
 @import 'header';
 @import 'about';
 @import 'work';
+@import 'contact';
+@import 'footer';
