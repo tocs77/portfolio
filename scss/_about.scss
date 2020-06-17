@@ -1,7 +1,5 @@
 .about {
-    margin: 0rem auto;
-    margin-top: 5rem;
-    width: 80%;
+    margin-top: 2rem;
 
     &__motto {
         font-family: "Hind Med";
@@ -93,6 +91,20 @@
                 font-weight: bold;
                 width: 2rem;
                 vertical-align: -5%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .about {
+        &__motto {
+            h1 {
+                font-size: 5rem;
+            }
+
+            h2 {
+                font-size: 4rem;
             }
         }
     }

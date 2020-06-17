@@ -1,14 +1,16 @@
 .header {
+  padding-top: 2rem;
   font-family: $menu-font-family;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  width: 80%;
-  margin: 0rem auto;
+
 
   &__logo {
     padding: 2rem;
     flex: 2 1 40rem;
+
+
 
     h1 {
       color: $primary-color;
@@ -38,4 +40,22 @@
       font-size: $big-text;
     }
   }
+}
+
+@media screen and (max-width: 900px) {
+
+  .header {
+    flex-direction: column;
+    justify-content: center;
+
+    &__logo {
+      flex: 1 1 10rem;
+      text-align: center;
+    }
+
+    nav {
+      flex: 1 1 3rem;
+    }
+  }
+
 }

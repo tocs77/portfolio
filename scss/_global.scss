@@ -30,6 +30,9 @@ body {
   background: url(/img/background.png);
   background-repeat: repeat;
   font-family: $main-font-family;
+
+  width: 80%;
+  margin: 0rem auto;
 }
 
 h1 {
@@ -55,4 +58,11 @@ ul {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+@media screen and (max-width: 900px) {
+  body {
+    width: 95%;
+  }
+
 }
